@@ -1,0 +1,209 @@
+body{
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #FAF8F1;
+  box-sizing: border-box;
+}
+.container-fluid{
+  padding: 3% 7%;
+}
+
+.title{
+  text-align: center;
+  line-height: 3;
+}
+
+.info{
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.btn{
+  border-radius: 30px;
+}
+.section1, .section2,.section3{
+  height: 400px;
+  margin-left:10px;
+
+}
+.section1{
+  position: relative;
+  background-color: #7743DB;
+  border-radius: 5%;
+}
+.graphic,.uix,.app, .illus, .photo, .motion{
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.uix, .app {
+bottom: 7px;
+}
+.img1{
+  margin: 20px 5px 0 240px;
+}
+.img2, .img3 {
+  margin: 20px 10px 0 85px;
+}
+.img4,.img5 {
+    margin: 20px 10px 0 230px;
+}
+.img6{
+  margin: 20px 10px 0 265px;
+}
+.sub1,.sub2{
+  position: relative;
+  height: 180px;
+  margin: 10px;
+  border-radius: 5%;
+}
+.sub1-first{
+  background-color: #EF9A53;
+}
+.sub1-mid {
+  background-color: #E97777;
+}
+.sub1-last{
+  background-color:#FF5858;
+
+  border-radius: 10px;
+}
+.sub2-first{
+  background-color:#00ABB3;
+  border-radius: 10px;
+}
+.sub2-last{
+  background-color:#4C0033;
+  border-radius: 10px;
+}
+.sub1-last, .sub2-last{
+  margin-top: 15px;
+}
+
+/* middle section */
+
+.girl {
+  position: relative;
+  height: 350px;
+  float: left;
+  margin-right: 350px;
+  shape-outside:circle();
+}
+
+.main {
+display: inline-block;
+padding: 7% 10%;
+}
+.amy, .bio{
+  width: 90%;
+}
+.mid-container{
+  text-align: center;
+  width: 100%;
+  margin:0 5% 5%;
+}
+
+.display {
+  height: 250px;
+  width: 350px;
+  margin: 0 10px 0 10px;
+
+}
+.work{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.arrow{
+  position: relative;
+  top: 20px;
+  width: 25px;
+
+  margin: 30px 10px 0 10px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+}
+.bottom-button{
+  background-color: #EB6440;
+}
+.bottom-container{
+  padding: 30px;
+  margin: 5% 8%;
+ color: #fff;
+  background-color: black;
+  border-radius: 10px;
+}
+.bottom-line, .bottom-div{
+  position: relative;
+  width: 49%;
+  display: inline-block;
+}
+.bottom-button{
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.footer{
+  position: relative;
+ margin: 0 8%;
+
+}
+.icon-div, .footer-div{
+width: 47%;
+display: inline-block;
+}
+
+.footer-button{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+@media (max-width:1515px){
+
+.main{
+  padding-right: 1%;
+}
+.info{
+  width: 60%;
+}
+
+
+.display{
+    height: 150px;
+    width: 200px;
+
+  }
+  .girl{
+    height: 200px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }
+  .amy{
+    font-size: 20px;
+  }
+  .bottom-line, .bottom-div{
+    width: 100%;
+    display: block;
+  }
+  .bottom-button{
+  position: static;
+  }
+  .bottom-container{
+    margin-top: 10%;
+  }
+}
+
+@media (max-width:600px){
+  .mid-container{
+    width: 700px;
+    margin: 0;
+    margin-left: -100px;
+  }
+}
